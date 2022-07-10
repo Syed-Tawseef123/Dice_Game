@@ -1,0 +1,78 @@
+body{
+  text-align: center;
+  background-color:#2C3639;
+}
+h1{
+  padding-top:5%;
+  color:#73A9AD;
+  font-size:5.5rem;
+font-family: 'Lobster', cursive;
+
+}
+#Dice-images{
+    font-size:1.7rem;
+font-family: 'Edu QLD Beginner', cursive;
+  color:#73A9AD;
+}
+.left-image{
+  margin-left:26%;
+  width:60%;
+}
+.right-image{
+    width:60%;
+      margin-right:26%;
+}
+.left-col
+{
+padding-left:30%;
+padding-top:2%;
+}
+.right-col
+{
+padding-right:30%;
+padding-top:2%;
+}
+.image-desc-left{
+  padding-bottom:3%;
+  padding-left:23%;
+}
+.image-desc-right{
+    padding-bottom:3%;
+    padding-right:23%;
+}
+#footer{
+  color:white;
+  font-family: 'Lobster', cursive;
+  font-size:1.5rem;
+    padding-top:5%;
+}
+@media  (max-width: 700px){
+body{
+  text-align: center;
+}
+  .left-image{
+    width:30%;
+    padding-top:1%;
+    position: relative;
+    top:32%;
+    right:57%;
+
+  }
+  .right-image{
+    position: relative;
+    bottom:75%;
+      left:57%;
+      width:30%;
+  }
+  .image-desc-left{
+      position: relative;
+      top:30%;
+      right:57%;
+  }
+  .image-desc-right{
+      position: relative;
+      top:35%;
+        left:57%;
+  }
+  
+}
